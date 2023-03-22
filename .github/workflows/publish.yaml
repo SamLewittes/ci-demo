@@ -1,5 +1,6 @@
 name: Lint and Publish
 on: push
+permissions: write-all
 jobs:
   lint:
     name: Run lint
